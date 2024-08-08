@@ -1,0 +1,31 @@
+/* Reset default margin and padding */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Ensure the nav element spans the full width */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Optional: to center the items vertically */
+    background-color: rgb(110, 147, 227); /* Your desired background color */
+    width: 100%;
+    padding: 10px; /* Optional: Add some padding if needed */
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%; /* Adjust as needed */
+}
+
+h1 {
+    color: white;
+    margin: 0;
+}
+
+h2 {
+    margin: 0 10px; /* Optional: to add some spacing between the links */
+    color: white; /* Assuming you want white text on a blue background */
+}
