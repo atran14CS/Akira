@@ -26,8 +26,9 @@ nav {
 } */
 
 h2 {
+    font-family: 'Bebas Neue', monospace;
     margin: 0 10px; /* Optional: to add some spacing between the links */
-    color: white; /* Assuming you want white text on a blue background */
+    color: white;
 }
 
 #akira-logo {

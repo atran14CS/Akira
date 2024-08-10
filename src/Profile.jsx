@@ -3,28 +3,43 @@ import MERN_CERTI from './img/MERN_CERTIFICATE.jpg';
 import WEB_CERTI from './img/webdev.jpg';
 import Virtual from './img/Virtual.jpg';
 import GitProfile from './img/gitprofile.png';
+import { FaJava } from "react-icons/fa";
+import { RiJavascriptFill } from "react-icons/ri";
+import { SiPython } from "react-icons/si";
+import { FaReact } from "react-icons/fa";
+import { FaBootstrap } from "react-icons/fa";
+import { SiSpringboot } from "react-icons/si";
+import { RiHtml5Fill } from "react-icons/ri";
+import { FaCss3Alt } from "react-icons/fa";
+import { BsFiletypeSql } from "react-icons/bs";
+
+
+
+
+
+
+
 
 const Profile = () => {
   return (
-    <div>
-        <h1 id='profile-h1'>Profile</h1>
+    <div className='about-section'>
         <h2 id='skills-h2'>Technical</h2>
         <div className='table-container'>
             <table className='table'>
                 <tr>
-                    <td>Java</td>
-                    <td>React</td>
-                    <td>HTML</td>
+                    <td>Java <FaJava className='skill-icons' color="#007396" /></td>
+                    <td>React <FaReact className='skill-icons' color="#00d8ff" /></td>
+                    <td>HTML <RiHtml5Fill className='skills-icon' color='#e34c26'/></td>
                 </tr>
                 <tr>
-                    <td>JavaScript</td>
-                    <td>BootStrap</td>
-                    <td>CSS</td>
+                    <td>JavaScript <RiJavascriptFill className='skill-icons' color="#F7DF1E" /></td>
+                    <td>BootStrap <FaBootstrap className='skills-icon' color='#563d7c'/></td>
+                    <td>CSS <FaCss3Alt className='skills-icon' color='#264de4'/> </td>
                 </tr>
                 <tr>
-                    <td>Python</td>
-                    <td>Springboot</td>
-                    <td>SQL</td>
+                    <td>Python <SiPython className='skills-icon' color='#007396'/></td>
+                    <td>Springboot <SiSpringboot className='skills-icon' color='#A7FC00'/></td>
+                    <td>SQL <BsFiletypeSql className='skills-icon' color='#00758f'/> </td>
                 </tr>
             </table>
         </div>

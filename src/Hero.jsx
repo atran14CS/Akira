@@ -9,13 +9,13 @@ const Hero = () => {
         <img src={akira} className='akira-logo' alt="akira-logo" />
         <ReactTyped className='type-animation-text'
           strings={[
-            "Welcome my name is Akira and I am a Software Developer. Feel free to contact me or check out my projects."
+            "System.out.println(Welcome my name is Akira and I am a Software Developer. Feel free to contact me or check out my projects.)"
           ]}
-          typeSpeed={40} // Speed at which typing happens
-          backSpeed={50} // Speed at which typing is erased
-          backDelay={1000} // Delay before starting to erase
+          typeSpeed={70} // Speed at which typing happens
+          backSpeed={40} // Speed at which typing is erased
+          backDelay={2000} // Delay before starting to erase
           startDelay={500} // Delay before starting typing
-          loop // Loop the typing animation
+          loop
         />
       </div>
     </div>

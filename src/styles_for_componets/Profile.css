@@ -1,12 +1,7 @@
-#profile-h1 {
-    /* margin-top: 5%; */
-    color: black;
-    font-size: 60px;
-}
-
 #skills-h2 {
-    margin-top: 3%;
-    color: black;
+    /* margin-top: 3%; */
+    padding-top: 3%;
+    color: white;
     font-size: 35px;
 }
 
@@ -23,8 +18,10 @@
 }
 
 .table td {
-    padding: 25px; /* Optional: Adds some padding to the table cells */
-    /* border: 1px solid black; */
+    font-family: 'Inconsolata', monospace;
+    padding: 25px;
+    color: white;
+    font-size: 22px;
 }
 
 .certificate {
@@ -49,4 +46,15 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.about-section {
+    background-color: black;
+}
+
+.skill-icons {
+    width: 30px; /* Set a fixed width for all icons */
+    height: 30px; /* Set a fixed height for all icons */
+    vertical-align: middle; /* Align the icon vertically with the text */
+    border-radius: 50%;
 }

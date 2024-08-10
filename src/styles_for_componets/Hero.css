@@ -1,5 +1,5 @@
 .hero-section {
-    background-color: grey;
+    background-color: black;
 }
 
 .akira-logo {
@@ -21,4 +21,13 @@
     margin-right: 2%;
     padding-top: 5%;
     font-family: 'Inconsolata', monospace;
+}
+
+
+.separator {
+    height: 2px; /* Thickness of the line */
+    border: none; /* Remove any default border */
+    background-color: red; /* Color of the line */
+    margin: 0; /* Remove default margins */
+    width: 100%; /* Make the line span the full width of the container */
 }
