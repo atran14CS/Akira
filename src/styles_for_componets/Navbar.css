@@ -9,7 +9,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center; /* Optional: to center the items vertically */
-    background-color: rgb(110, 147, 227); /* Your desired background color */
+    background-color: black;
     width: 100%;
     padding: 10px; /* Optional: Add some padding if needed */
 }
@@ -20,12 +20,16 @@ nav {
     width: 50%; /* Adjust as needed */
 }
 
-h1 {
+/* h1 {
     color: white;
     margin: 0;
-}
+} */
 
 h2 {
     margin: 0 10px; /* Optional: to add some spacing between the links */
     color: white; /* Assuming you want white text on a blue background */
+}
+
+#akira-logo {
+    height: 5em; /* Match the image height to the font size of the <h2> */
 }
