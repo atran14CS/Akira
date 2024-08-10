@@ -1,36 +1,54 @@
-/* Reset default margin and padding */
 html, body {
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
-/* Ensure the nav element spans the full width */
 nav {
     display: flex;
     justify-content: space-between;
-    align-items: center; /* Optional: to center the items vertically */
+    align-items: center;
     background-color: black;
     width: 100%;
-    padding: 10px; /* Optional: Add some padding if needed */
+    padding: 10px;
 }
 
 .nav-links {
     display: flex;
     justify-content: space-evenly;
-    width: 50%; /* Adjust as needed */
+    width: 50%;
 }
-
-/* h1 {
-    color: white;
-    margin: 0;
-} */
 
 h2 {
     font-family: 'Bebas Neue', monospace;
-    margin: 0 10px; /* Optional: to add some spacing between the links */
+    margin: 0 10px;
     color: white;
 }
 
 #akira-logo {
-    height: 5em; /* Match the image height to the font size of the <h2> */
+    height: 5em;
+}
+
+.nav-op:hover {
+    color: red;
+    transition: 1s;
+    text-decoration: underline red;
+}
+
+a {
+    text-decoration: none;
+    color: inherit; /* Inherits the color from the parent element */
+}
+
+a:visited {
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: inherit;
+    text-decoration: none;
 }

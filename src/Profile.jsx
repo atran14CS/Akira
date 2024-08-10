@@ -16,7 +16,7 @@ import { ReactTyped } from 'react-typed';
 
 const Profile = () => {
   return (
-    <div className='about-section'>
+    <div className='about-section' id="about">
         <h2 id='skills-h2'>Technical</h2>
         <div className='table-container'>
             <table className='table'>
