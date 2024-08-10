@@ -12,13 +12,7 @@ import { SiSpringboot } from "react-icons/si";
 import { RiHtml5Fill } from "react-icons/ri";
 import { FaCss3Alt } from "react-icons/fa";
 import { BsFiletypeSql } from "react-icons/bs";
-
-
-
-
-
-
-
+import { ReactTyped } from 'react-typed';
 
 const Profile = () => {
   return (
@@ -51,13 +45,22 @@ const Profile = () => {
                 <img src={Virtual} alt="Virutal_CERTIFICATE" className='certificate' />
             </div>
         </div>
-        <div>
-            <h2 id='skills-h2'>Projects</h2>
-            <img src={GitProfile} alt="GitProfile" className='gitprofile' />
-            <a href="https://github.com/atran14CS" id='gitlink'>Check out my projects here!</a>
+        <h2 id='skills-h2'>Projects</h2>
+        <div className='project-box'>
+            <a href="https://github.com/atran14CS"  target="_blank" id='gitlink'> <img src={GitProfile} alt="GitProfile" className='gitprofile'/></a>
+            <ReactTyped className='project-text'
+                strings={[
+                    "Click the github icon to see my projects!"
+                ]}
+                typeSpeed={70}
+                backSpeed={100}
+                backDelay={2000}
+                startDelay={500}
+                loop
+            />
         </div>
     </div>
-  )
+  );
 }
 
 export default Profile;

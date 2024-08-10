@@ -30,6 +30,7 @@
 }
 
 .certificate-box {
+    margin-top: 45px;
     display: flex;
     justify-content: space-evenly;
 }
@@ -40,6 +41,7 @@
     margin-right: auto;
     height: 30%;
     width: 30;
+    border-radius: 50%;
 }
 
 .gitlink {
@@ -53,8 +55,20 @@
 }
 
 .skill-icons {
-    width: 30px; /* Set a fixed width for all icons */
-    height: 30px; /* Set a fixed height for all icons */
-    vertical-align: middle; /* Align the icon vertically with the text */
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
     border-radius: 50%;
+}
+
+.project-text {
+    margin-top: 10px;
+    display: flex;
+    color: white;
+    margin-top: 5%;
+    margin-right: 2%;
+    padding-top: 5%;
+    font-family: 'Inconsolata', monospace;
+    font-size: 150%;
+    justify-content: center;
 }

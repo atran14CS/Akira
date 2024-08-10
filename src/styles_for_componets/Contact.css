@@ -1,4 +1,8 @@
-#contact-h1 {
+/* #contact-h1 {
     margin-top: 5%;
     color: black;
+} */
+
+.contact-box {
+    background: black;
 }

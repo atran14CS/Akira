@@ -16,6 +16,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Hero />
     <BlankLine />
     <Profile />
+    <BlankLine />
     <Contact />
   </React.StrictMode>,
 )
