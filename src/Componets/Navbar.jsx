@@ -1,5 +1,5 @@
-import './styles_for_componets/Navbar.css';
-import logo from './img/AKIRA_LOGO2.png';
+import '../styles_for_componets/Navbar.css';
+import logo from '../img/AKIRA_LOGO2.png';
 
 const Navbar = () => {
   return (

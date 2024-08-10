@@ -1,4 +1,4 @@
-import './styles_for_componets/Contact.css';
+import '../styles_for_componets/Contact.css';
 import { FaLinkedin } from "react-icons/fa";
 import { MdOutgoingMail } from "react-icons/md";
 

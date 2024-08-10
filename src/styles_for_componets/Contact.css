@@ -1,33 +1,32 @@
 .contact-box {
-    background-color: black;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .contact-flexbox {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 20px;
-  }
-  
-  #link, #email {
-    display: flex;
-    align-items: center;
-  }
-  
-  .contact-icon {
-    vertical-align: middle;
-    margin-right: 8px; /* Adds space between icon and text */
-    font-size: 24px; /* Adjust the size of the icon */
-  }
-  
-  /* Optional: Make links appear inline with icons */
-  #link a, #email p {
-    margin: 0;
-    font-size: 18px;
-    text-decoration: none; /* Removes underline from link */
-    color: white; /* Inherit color from parent or specified color */
-    font-family: 'Inconsolata', monospace;
-  }
-  
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+}
+
+.contact-flexbox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#link, #email {
+  display: flex;
+  align-items: center;
+}
+
+.contact-icon {
+  vertical-align: middle;
+  margin-right: 8px;
+  font-size: 24px;
+}
+
+
+#link a, #email p {
+  margin: 0;
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+  font-family: 'Inconsolata', monospace;
+}

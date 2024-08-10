@@ -1,8 +1,8 @@
-import './styles_for_componets/Profile.css';
-import MERN_CERTI from './img/MERN_CERTIFICATE.jpg';
-import WEB_CERTI from './img/webdev.jpg';
-import Virtual from './img/Virtual.jpg';
-import GitProfile from './img/gitprofile.png';
+import '../styles_for_componets/Profile.css';
+import MERN_CERTI from '../img/MERN_CERTIFICATE.jpg';
+import WEB_CERTI from '../img/webdev.jpg';
+import Virtual from '../img/Virtual.jpg';
+import GitProfile from '../img/gitprofile.png';
 import { FaJava } from "react-icons/fa";
 import { RiJavascriptFill } from "react-icons/ri";
 import { SiPython } from "react-icons/si";
