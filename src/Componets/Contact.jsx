@@ -15,7 +15,7 @@ const Contact = () => {
         </div>
         <div id='email'>
           <MdOutgoingMail color='#c71610' className='contact-icon' />
-          <p>akriatrandev@gmail.com</p>
+          <p>akiratrandev@gmail.com</p>
         </div>
       </div>
     </div>
